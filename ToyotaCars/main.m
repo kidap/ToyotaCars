@@ -13,15 +13,16 @@ int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
         
+        //Crete Nissan Rogue object
         Car *nissan = [[Car alloc] initWithModel:@"Rogue"];
         
         [nissan drive];
         
+        //Create Toyota Prius object
         Toyota *toyota = [[Toyota alloc] init];
         
         [toyota drive];
         
-        //NSLog(@"Hello, World!");
     }
     return 0;
 }

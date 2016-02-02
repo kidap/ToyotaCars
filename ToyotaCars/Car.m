@@ -12,12 +12,12 @@
 @implementation Car
 
 -(id) initWithModel:(NSString *) model{
-    self.model = model;
+    _model = model;
     return self;
 }
 -(void) drive
 {
-    NSLog(@"Car model: %@",self.model);
+    NSLog(@"%@",self.model);
 }
 @end
 
